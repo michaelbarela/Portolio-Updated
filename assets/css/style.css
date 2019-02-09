@@ -1,7 +1,7 @@
 html, body{
 	font-size:16px;
 	color: #dfdfdf;
-	background-color: #063647; 
+	background-color: #0d6326; 
 }
 
 a {
@@ -12,25 +12,37 @@ a:hover {
   color: #00d1b2;
 }
 
+#crystal , #train {
+	height: 200px;
+}
+
+#crystal:hover {
+	filter: invert(100%) !important;
+}
+
+#train:hover{
+	filter: invert(100%) !important;
+}
+
 section{
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
 
 .section-1 {
-	background: #063647;
+	background: #093661;
 }
 
 .section-2 {
-	background-color: #052D3D;
+	background-color: rgb(10, 57, 110);
 }
 
 .section-3 {
-	background-color: #0E282E;
+	background-color: rgb(27, 52, 85);
 }
 
 .section-4 {
-	background-color: #063647;
+	background-color: #184b35;
 	padding: 0.2rem;
 }
 
@@ -45,6 +57,10 @@ a.nav-item:hover {
 .avatar{
 	height:200px;
 	border-radius: 50%;
+}
+
+.avatar:hover{
+	filter: invert(100%) !important;
 }
 
 .intro-description{
